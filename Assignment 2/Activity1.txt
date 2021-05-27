@@ -1,6 +1,0 @@
-Function Main
-    Declare String name
-    
-    Assign name = "Ivan Lopez"
-    Output "Hello " & name
-End
