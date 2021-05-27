@@ -4,14 +4,16 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="PhotonUser"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-05-27 12:07:30 AM"/>
-        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUk3OEwwTVQ7MjAyMS0wNS0yNzsxMjowNDo0NiBBTTszMzA5"/>
-        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUk3OEwwTVQ7MjAyMS0wNS0yNzsxMjowNzozMCBBTTsxOzM0MTM="/>
+        <attribute name="saved" value="2021-05-27 09:04:23 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVE0OVNNSjE7MjAyMS0wNS0yNzswOTowMTozNyBBTTszMzE2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVE0OVNNSjE7MjAyMS0wNS0yNzswOTowNDoyMyBBTTsxOzM0MjI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <output expression="&quot;Hello World&quot;" newline="True"/>
+            <declare name="name" type="String" array="False" size=""/>
+            <assign variable="name" expression="&quot;Ivan Lopez&quot;"/>
+            <output expression="&quot;Hello &quot; &amp; name" newline="True"/>
         </body>
     </function>
 </flowgorithm>
