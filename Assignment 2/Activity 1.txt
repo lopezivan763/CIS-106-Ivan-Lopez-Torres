@@ -1,5 +1,0 @@
-Function Main
-    ... changed "Hello World" to "Hello Ivan Lopez" on the output statement  
-    ... 
-    Output "Hello Ivan Lopez"
-End
