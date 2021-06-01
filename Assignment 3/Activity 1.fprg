@@ -26,7 +26,7 @@
             <output expression="&quot;The employ"/>ee gross pay is $&quot; &amp; grossPay" newline="True"/>
             <assign variable="montly" expression="(weekly * 4)"/>
             <assign variable="anual" expression="(weekly * 52)"/>
-            <output expression="&quot;The employee weekly pay is $&quot; &amp; weekly &amp; &quot;. The employee montly pay is $&quot; &amp; montly &amp; &quot;. The employee anual pay is $&quot; &amp; anual &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;The employee weekly pay is $&quot; &amp; grossPay &amp; &quot;. The employee montly pay is $&quot; &amp; montly &amp; &quot;. The employee anual pay is $&quot; &amp; anual &amp; &quot;.&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>
