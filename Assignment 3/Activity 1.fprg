@@ -16,8 +16,8 @@
             <declare name="payRate" type="Real" array="False" size=""/>
             <declare name="grossPay" type="Real" array="False" size=""/>
             <declare name="weekly" type="Real" array="False" size=""/>
-            <declare name="montly" type="Real" array="False" size=""/>
-            <declare name="anual" type="Real" array="False" size=""/>
+            <declare name="monthly" type="Real" array="False" size=""/>
+            <declare name="Yearly" type="Real" array="False" size=""/>
             <output expression="&quot;Enter the number of hours&quot;" newline="True"/>
             <input variable="hours"/>
             <output expression="&quot;Enter the hourly pay rate&quot;" newline="True"/>
