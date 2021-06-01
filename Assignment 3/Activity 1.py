@@ -16,4 +16,4 @@ monthly = grossPay * 4
 
 yearly = grossPay * 52
 
-print("The employee weekly pay is $" + str(grossPay) + ". The employee montly pay is $" + str(monthly) + ". The employee anual pay is $" + str(yearly) + ".")
+print("The employee weekly pay is $" + str(grossPay) + ". The employee monthly pay is $" + str(monthly) + ". The employee yearly pay is $" + str(yearly) + ".")
