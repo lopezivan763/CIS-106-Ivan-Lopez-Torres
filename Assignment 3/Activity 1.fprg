@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-31 08:35:17 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVQ2RzZDREM7MjAyMS0wNS0zMTswODoxNDoxOCBQTTszMzIw"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVQ2RzZDREM7MjAyMS0wNS0zMTswODoxNTozMCBQTTsxO1Bob3RvblVzZXI7RUMyQU1BWi1UNkc2Q0RDOzIwMjEtMDUtMzE7MDg6MDU6MjcgUE07NjgwMg=="/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVQ2RzZDREM7MjAyMS0wNS0zMTswODozNToxNyBQTTsyOzM0MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program converts an input dog years into human years"/>
+            <declare name="D" type="Real" array="False" size=""/>
+            <declare name="H" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter dog years&quot;" newline="True"/>
+            <input variable="D"/>
+            <assign variable="H" expression="D * 7"/>
+            <output expression="&quot;Luke is&quot; &amp; H &amp; &quot; years old in human years&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
