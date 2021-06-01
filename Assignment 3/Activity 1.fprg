@@ -24,7 +24,7 @@
             <input variable="payRate"/>
             <assign variable="grossPay" expression="hours * payRate"/>
             <output expression="&quot;The employee gross pay is $&quot; &amp; grossPay" newline="True"/>
-            <assign variable="weekly" expression="hours * payRate * 7"/>
+            <assign variable="weekly" expression="hours * payRate * 5"/>
             <assign variable="montly" expression="(weekly * 4)"/>
             <assign variable="anual" expression="(weekly * 52)"/>
             <output expression="&quot;The employee weekly pay is $&quot; &amp; weekly &amp; &quot;. The employee montly pay is $&quot; &amp; montly &amp; &quot;. The employee anual pay is $&quot; &amp; anual &amp; &quot;.&quot;" newline="True"/>
