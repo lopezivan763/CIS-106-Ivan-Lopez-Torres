@@ -9,7 +9,9 @@ print()
 months = age * 12
 print()
 days = age * 365
+print()
 hours = age * 8760
+print()
 seconds = age * 31536000
 print()
 print("The user age in months is " + str(months) + " months.")
