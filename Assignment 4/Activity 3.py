@@ -16,8 +16,6 @@ feet = miles * 5280
 
 inches = miles * 63360
 
-print('')
-
 print("The distance from miles to yards is " + str(yards) + " yards.")
 
 print('')
