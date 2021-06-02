@@ -1,4 +1,5 @@
 # This program calculates miles -
+
 # to yard, feet, and inches
 
 print("What is the distance in miles?")
@@ -6,6 +7,8 @@ print("What is the distance in miles?")
 miles = float(input())
 
 print("The distance is " + str(miles) + " miles.")
+
+print('')
 
 yards = miles * 1760
 
