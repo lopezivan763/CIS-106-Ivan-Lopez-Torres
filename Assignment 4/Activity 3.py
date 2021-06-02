@@ -4,6 +4,8 @@
 
 print("What is the distance in miles?")
 
+print('')
+
 miles = float(input())
 
 print("The distance is " + str(miles) + " miles.")
