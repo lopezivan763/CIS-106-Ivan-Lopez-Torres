@@ -7,9 +7,13 @@ print('')
 miles = float(input())
 print("The distance is " + str(miles) + " miles.")
 print('')
+
 yards = miles * 1760
+
 feet = miles * 5280
+
 inches = miles * 63360
+
 print('')
 print("The distance from miles to yards is " + str(yards) + " yards.")
 print('')
