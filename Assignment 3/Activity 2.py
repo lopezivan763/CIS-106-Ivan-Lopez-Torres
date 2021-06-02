@@ -1,6 +1,7 @@
 # program that calculates the age of the user to years months, days, etc.
 print()
 print("How old are you?")
+print()
 age = float(input())
 print()
 print("The users age is " + str(age) + " year's old.")
