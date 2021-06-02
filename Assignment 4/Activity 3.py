@@ -10,8 +10,6 @@ miles = float(input())
 
 print("The distance is " + str(miles) + " miles.")
 
-print('')
-
 yards = miles * 1760
 
 feet = miles * 5280
