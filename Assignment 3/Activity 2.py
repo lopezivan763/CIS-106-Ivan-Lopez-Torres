@@ -1,5 +1,5 @@
-# This is a program that calculates the age of the user to years months, days, etc.
-
+# program that calculates the age of the user to years months, days, etc.
+print()
 print("How old are you?")
 age = float(input())
 print("The users age is " + str(age) + " year's old.")
