@@ -4,11 +4,11 @@
 
 print("What is the distance in miles?")
 
-ptint('')
-
 miles = float(input())
 
 print("The distance is " + str(miles) + " miles.")
+
+print('')
 
 yards = miles * 1760
 
