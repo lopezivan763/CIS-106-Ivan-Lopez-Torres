@@ -2,12 +2,14 @@
 print()
 print("How old are you?")
 age = float(input())
+print()
 print("The users age is " + str(age) + " year's old.")
 print()
 months = age * 12
 days = age * 365
 hours = age * 8760
 seconds = age * 31536000
+print()
 print("The user age in months is " + str(months) + " months.")
 print()
 print("The user age in days is " + str(days) + " days.")
