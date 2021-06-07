@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-06 09:22:20 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFGVE9DMDM7MjAyMS0wNi0wNjswODo0ODo1NiBQTTszMzQ3"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFGVE9DMDM7MjAyMS0wNi0wNjswOToyMjoyMCBQTTsxOzM0Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="months" type="Integer" array="False" size=""/>
+            <declare name="days" type="Integer" array="False" size=""/>
+            <declare name="hours" type="Integer" array="False" size=""/>
+            <declare name="seconds" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter your age&quot;" newline="True"/>
+            <input variable="age"/>
+            <assign variable="months" expression="age * 12"/>
+            <assign variable="days" expression="age * 365"/>
+            <assign variable="hours" expression="age * 8760"/>
+            <assign variable="seconds" expression="age * 31536000"/>
+            <output expression="&quot;Your age in months is &quot;&amp; months &amp; &quot; months.&quot;" newline="True"/>
+            <output expression="&quot;Your age in days is &quot; &amp; days &amp; &quot; days.&quot;" newline="True"/>
+            <output expression="&quot;Your age in hours is&quot; &amp; hours &amp; &quot; hours.&quot;" newline="True"/>
+            <output expression="&quot;Your age in seconds is&quot; &amp; seconds &amp; &quot; seconds.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
