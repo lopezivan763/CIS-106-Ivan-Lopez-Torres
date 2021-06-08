@@ -1,3 +1,7 @@
+# This program changes human
+# years to dog years
+
+
 def calc_age(human):
     age = float(human) / 7
     
@@ -19,10 +23,10 @@ def get_name():
     return name
 
 
-# Main
-# This program changes human
-# years to dog years
-name = get_name()
-human = get_human()
-age = calc_age(human)
-display_result(name, human, age)
+def mani():
+    name = get_name()
+    human = get_human()
+    age = calc_age(human)
+    display_result(name, human, age)
+    
+main()
