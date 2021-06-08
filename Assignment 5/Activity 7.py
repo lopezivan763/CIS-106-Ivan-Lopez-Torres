@@ -1,4 +1,5 @@
 # This program changes human
+
 # years to dog years
 
 
@@ -32,8 +33,11 @@ def get_name():
 def main():
     
     name = get_name()
+    
     human = get_human()
+    
     age = calc_age(human)
+    
     display_result(name, human, age)
     
 main()
