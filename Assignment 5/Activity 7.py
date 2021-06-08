@@ -4,8 +4,8 @@
 
 def calc_age(human):
 
-
     age = float(human) / 7
+
 
     return age
 
