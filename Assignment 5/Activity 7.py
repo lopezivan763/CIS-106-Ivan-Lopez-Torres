@@ -2,7 +2,6 @@
 # to dog years
 
 
-
 def calc_age(human):
 
 
