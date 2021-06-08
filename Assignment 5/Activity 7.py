@@ -23,7 +23,7 @@ def get_name():
     return name
 
 
-def mani():
+def main():
     name = get_name()
     human = get_human()
     age = calc_age(human)
