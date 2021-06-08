@@ -7,6 +7,7 @@ def calc_age(human):
 
     return age
 
+
 def display_result(name, human, age):
     print(name + " is " + str(age) + " years old in dog years.")
 
