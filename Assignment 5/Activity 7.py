@@ -1,6 +1,8 @@
 # This program changes human years
 # to dog years
 
+
+
 def calc_age(human):
 
     age = float(human) / 7
