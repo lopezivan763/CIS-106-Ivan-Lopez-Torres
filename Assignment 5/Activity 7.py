@@ -1,25 +1,29 @@
-def calcAge(human):
+# This program changes human
+# years to dog years
+
+
+def calc_age(human):
     age = float(human) / 7
     
     return age
 
-def displayResult(name, human, age):
+def display_result(name, human, age):
     print(name + " is " + str(age) + " years old in dog years.")
 
-def getHuman():
+def get_human():
     print("Enter the dog's age in human years")
     human = int(input())
     
     return human
 
-def getName():
+def get_name():
     print("Enter the dog's name")
     name = input()
     
     return name
 
 # Main
-name = getName()
-human = getHuman()
-age = calcAge(human)
-displayResult(name, human, age)
+name = get_name()
+human = get_human()
+age = calc_age(human)
+display_result(name, human, age)
