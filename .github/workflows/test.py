@@ -578,6 +578,8 @@ def check_git_log(assignment, pattern, message):
         regex = re.compile(pattern, re.IGNORECASE)
         match = regex.search(output)
         assert match, message
+    except UnicodeDecodeError:
+        pass
     except subprocess.CalledProcessError as exception:
         assert False, exception
 
@@ -1919,7 +1921,9 @@ def read_file(path, filename):
 
 
 if __name__ == "__main__":
-    check_assignment_folder_structure(
-        "Assignment 10",
-        r"(nested )?activity[ _]?#?\d\.(class|fprg|cs|java|js|lua|py)|"
-        "package-lock.json|test.csproj")
+    check_git_log(
+        "Assignment 2",
+        "hello.+?world",
+        "Git log is missing required \"Hello world!\" text. "
+            "You must commit Activity 1 changes before working on "
+            "Activity 2.")
