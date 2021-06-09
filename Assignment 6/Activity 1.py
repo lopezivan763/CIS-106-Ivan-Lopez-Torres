@@ -2,8 +2,8 @@
 # montly, and anual pay
 
 
-def calc_anual(weekly):
-    anual = weekly * 52
+def calc_anual(monthly):
+    anual = monthly * 12
     
     return anual
 
@@ -53,7 +53,7 @@ def main():
     pay = calc_pay(hours, rate)
     weekly = calc_weekly(hours, rate)
     monthly = calc_monthly(weekly)
-    anual = calc_anual(weekly)
+    anual = calc_anual(monthly)
     display_result(pay, weekly, monthly, anual)
 
 
