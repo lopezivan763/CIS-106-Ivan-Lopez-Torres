@@ -29,7 +29,7 @@ def calc_weekly(hours, rate):
 def display_result(pay, weekly, monthly, anual):
     print("The employee gross pay is $" + str(pay) + ".")  
     print("The employee weekly pays is $" + str(weekly) + ".") 
-    print("The employee montly pay is $" + str(monthly) + ".")
+    print("The employee monthly pay is $" + str(monthly) + ".")
     print("The employee yearly pay is $" + str(anual) + ".")
 
     
