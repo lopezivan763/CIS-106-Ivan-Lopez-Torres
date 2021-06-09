@@ -21,7 +21,7 @@ def calc_pay(hours, rate):
 
 
 def calc_weekly(hours, rate):
-    weekly = hours * rate * 7
+    weekly = hours * rate * 5
     
     return weekly
 
