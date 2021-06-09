@@ -24,6 +24,7 @@ def display_result(miles, yards, feet, inches):
     print("The distance from miles into feet is " + str(feet) + " feet.")
     print("The distance from miles to inches is " + str(inches) + " inches.")
 
+
 def get_miles():
     print("Enter miles")
     miles = float(input())
@@ -38,4 +39,5 @@ def main():
     inches = calc_inches(miles)
     display_result(miles, yards, feet, inches)
     
+
 main()
