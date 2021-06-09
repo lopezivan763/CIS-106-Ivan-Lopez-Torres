@@ -45,13 +45,13 @@ def get_rate():
 
 
 def main():
-hours = get_hours()
-rate = get_rate()
-pay = calc_pay(hours, rate)
-weekly = calc_weekly(hours, rate)
-monthly = calc_monthly(weekly)
-anual = calc_anual(weekly)
-display_result(pay, weekly, monthly, anual)
+    hours = get_hours()
+    rate = get_rate()
+    pay = calc_pay(hours, rate)
+    weekly = calc_weekly(hours, rate)
+    monthly = calc_monthly(weekly)
+    anual = calc_anual(weekly)
+    display_result(pay, weekly, monthly, anual)
 
 
 main()
