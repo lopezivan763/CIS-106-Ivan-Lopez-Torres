@@ -13,3 +13,6 @@ On these new assignments, I got to experience more with Python and atom as my ID
 
 ## Assignment 5
 On these new assignments, I got to experience more with functions. In my opinion, functions are so cool and make everything more organized. As always attention to detail plays a big role in programming. I believe I'm getting a lot better at identifying my errors before jumping to the wrong conclusions. Functions will help me keep everything in order. However, I'm not too comfortable with them. I still struggle with the variables and the arrangement of those variables. Practice will help me improve and eventually write a whole program by myself. As always, I look forward to the next challenge. As I progress in this class, I feel more confident on every new assignment.
+
+##Assignment 6
+Assignment 6 was much more manageable now that I knew how to properly use functions and how to fix the errors in my code. The class keeps getting a bit challenging and stressful at times, but also the number of things I'm learning is unreal. I was not expecting coding this much throughout this class. I need to practice one or two things to make my coding more efficient and less difficult to code. I'm sure that at the end of this course things will look a lot easier. I'm thinking of looking into some other examples and code them to keep practicing and keep this momentum going.
