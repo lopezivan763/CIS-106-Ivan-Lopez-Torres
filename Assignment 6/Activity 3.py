@@ -1,33 +1,41 @@
-def calcFeet(miles):
+# This program calculates the distance from miles into yards, feet, and inches.
+
+
+def calc_feet(miles):
     feet = miles * 5280
     
     return feet
 
-def calcInches(miles):
+
+def calc_inches(miles):
     inches = miles * 63360
     
     return inches
 
-def calcYards(miles):
+
+def calc_yards(miles):
     yards = miles * 1760
     
     return yards
 
-def displayResult(miles, yards, feet, inches):
+
+def display_result(miles, yards, feet, inches):
     print("The distance from miles in yards is " + str(yards) + " yards.")
     print("The distance from miles into feet is " + str(feet) + " feet.")
     print("The distance from miles to inches is " + str(inches) + " inches.")
 
-def getMiles():
+def get_miles():
     print("Enter miles")
     miles = float(input())
     
     return miles
 
-# Main
-# This program calculates the distance from miles into yards, feet, and inches.
-miles = getMiles()
-yards = calcYards(miles)
-feet = calcFeet(miles)
-inches = calcInches(miles)
-displayResult(miles, yards, feet, inches)
+
+def main():
+    miles = get_miles()
+    yards = calc_yards(miles)
+    feet = calc_feet(miles)
+    inches = calc_inches(miles)
+    display_result(miles, yards, feet, inches)
+    
+main()
