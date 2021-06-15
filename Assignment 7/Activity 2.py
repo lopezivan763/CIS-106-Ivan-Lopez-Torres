@@ -1,3 +1,7 @@
+# This program ask the users if they want to calculate their 
+# age into months, days, hours, or seconds.
+
+
 def calcDays(age):
     days = age * 365
     
@@ -42,14 +46,13 @@ def getChoice():
     
     return choice
 
-# Main
-# This program ask the users if they want to calculate their age into months, days, hours, or seconds.
-age = getAge()
-choice = getChoice()
-months = calcMonths(age)
-days = calcDays(age)
-hours = calcHours(age)
-seconds = calcSeconds(age)
+def main():
+    age = getAge()
+    choice = getChoice()
+    months = calcMonths(age)
+    days = calcDays(age)
+    hours = calcHours(age)
+    seconds = calcSeconds(age)
 if choice == "months":
     displayMonths(months)
 else:
@@ -63,3 +66,5 @@ else:
                 displaySeconds(seconds)
             else:
                 print("Please select if you want your age to be display in months, days, hours, or seconds")
+                
+main()
