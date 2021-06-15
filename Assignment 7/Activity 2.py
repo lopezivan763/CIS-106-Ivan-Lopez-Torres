@@ -58,8 +58,8 @@ def main():
         display_months(months)
     else:
         
-    if choice == "days":
-    display_days(days)
+        if choice == "days":
+            display_days(days)
     else:
         
     if choice == "hours":
