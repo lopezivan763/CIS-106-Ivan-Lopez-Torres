@@ -55,7 +55,7 @@ def main():
     seconds = calc_seconds(age)
 
     if choice == "months":
-    display_months(months)
+        display_months(months)
     else:
         
     if choice == "days":
