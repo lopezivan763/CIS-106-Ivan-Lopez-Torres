@@ -60,7 +60,7 @@ def main():
         
         if choice == "days":
             display_days(days)
-    else:
+        else:
         
     if choice == "hours":
     display_hours(hours)
