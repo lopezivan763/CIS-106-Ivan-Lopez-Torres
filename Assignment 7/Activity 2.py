@@ -41,7 +41,7 @@ def get_age():
     return age
 
 def get_choice():
-    print("Would you like to know your age in months, days, hours, or seconds?")
+    print("Would you like to know your age in (M)onths, (D)ays, (H)ours, or (S)econds?")
     choice = input()
     
     return choice
@@ -54,19 +54,19 @@ def main():
     hours = calc_hours(age)
     seconds = calc_seconds(age)
 
-    if choice == "months":
+    if choice == "M":
         display_months(months)
     else:
         
-        if choice == "days":
+        if choice == "D":
             display_days(days)
         else:
         
-            if choice == "hours":
+            if choice == "H":
                 display_hours(hours)
             else:
         
-                if choice == "seconds":
+                if choice == "S":
                     display_seconds(seconds)
                 else:
                     print("Please select if you want your age to be display in months, days, hours, or seconds")
