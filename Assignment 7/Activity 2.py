@@ -62,13 +62,13 @@ def main():
             display_days(days)
         else:
         
-    if choice == "hours":
-    display_hours(hours)
-    else:
+            if choice == "hours":
+                display_hours(hours)
+            else:
         
-    if choice == "seconds":
-    display_seconds(seconds)
-    else:
-    print("Please select if you want your age to be display in months, days, hours, or seconds")
+                if choice == "seconds":
+                    display_seconds(seconds)
+                else:
+                    print("Please select if you want your age to be display in months, days, hours, or seconds")
                 
 main()
