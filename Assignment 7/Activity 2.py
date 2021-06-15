@@ -54,21 +54,21 @@ def main():
     hours = calc_hours(age)
     seconds = calc_seconds(age)
 
-    if choice == "months":
-        display_months(months)
-    else:
+if choice == "months":
+    display_months(months)
+else:
         
-    if choice == "days":
-        display_days(days)
-    else:
+if choice == "days":
+    display_days(days)
+else:
         
-    if choice == "hours":
-        display_hours(hours)
-    else:
+if choice == "hours":
+    display_hours(hours)
+else:
         
-    if choice == "seconds":
-        display_seconds(seconds)
-    else:
-        print("Please select if you want your age to be display in months, days, hours, or seconds")
+if choice == "seconds":
+    display_seconds(seconds)
+else:
+    print("Please select if you want your age to be display in months, days, hours, or seconds")
                 
 main()
