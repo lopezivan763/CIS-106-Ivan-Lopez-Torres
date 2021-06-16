@@ -92,14 +92,13 @@ def main():
         display_feet(feet)
         display_inches(inches)
     else:
-        
-        
+          
         if choice == "metric":
             display_kilometers(kilometers)
             display_meters(meters)
             display_centimeters(centimeters)
         else:
             print("Please enter if you want to convert to US measurements or metric measurements")
-      
+    
     
 main()
