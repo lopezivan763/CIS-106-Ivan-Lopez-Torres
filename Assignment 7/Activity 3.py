@@ -41,32 +41,40 @@ def calc_yards(miles):
 def display_centimeters(centimeters):
     print("The miles in centimeters are " + str(centimeters) + " centimeters")
 
+    
 def display_feet(feet):
     print("The miles into feet are " + str(feet) + " feet.")
 
+    
 def display_inches(inches):
     print("The miles into inches are " + str(inches) + " inches.")
 
+    
 def display_kilometers(kilometers):
     print("The miles into kilometers are " + str(kilometers) + " kilometers.")
 
+    
 def display_meters(meters):
     print("The miles into meters are " + str(meters) + " meters.")
 
+    
 def display_yards(yards):
     print("The miles into yards are " + str(yards) + " yards.")
 
+    
 def get_miles():
     print("Enter miles")
     miles = int(input())
     
     return miles
 
+
 def get_choice():
     print("Do you want US measurements or metric measurements?")
     choice = input()
     
     return choice
+
 
 def main():
     
@@ -90,6 +98,6 @@ def main():
             display_meters(meters)
             display_centimeters(centimeters)
         else:
-            print("Please selec us or metric measurements")
+            
 
 main()
