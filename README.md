@@ -16,3 +16,6 @@ On these new assignments, I got to experience more with functions. In my opinion
 
 ##Assignment 6
 Assignment 6 was much more manageable now that I knew how to properly use functions and how to fix the errors in my code. The class keeps getting a bit challenging and stressful at times, but also the number of things I'm learning is unreal. I was not expecting coding this much throughout this class. I need to practice one or two things to make my coding more efficient and less difficult to code. I'm sure that at the end of this course things will look a lot easier. I'm thinking of looking into some other examples and code them to keep practicing and keep this momentum going.
+
+##Assignment 7
+Assignment 7 was simple and much more helpful to make programming easier. It was a bit confusing at first, but then if and else statements were easier to understand. Functions and conditions bring a new organization to my programming. I also read a bit about loops and how they can help, so I'm looking forward to learning about them. I will use this information to improve my work and my coding which is improving ever since I started this class. I'm also thinking of programming a calculator with all the stuff I'm learning in this course. It should be an easy project and good practice as well.
