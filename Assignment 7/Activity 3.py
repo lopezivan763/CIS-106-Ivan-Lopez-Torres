@@ -1,81 +1,89 @@
-def calcCentimeters(miles):
+# This program ask the users if they would like to cheange 
+# the miles int US measurements or metric measurements
+
+
+def calc_centimeters(miles):
     centimeters = miles * 160934.4
     
     return centimeters
 
-def calcFeet(miles):
+def calc_feet(miles):
     feet = miles * 5280
     
     return feet
 
-def calcInches(miles):
+def calc_inches(miles):
     inches = miles * 63360
     
     return inches
 
-def calcKilometers(miles):
+def calc_kilometers(miles):
     kilometers = miles * 1.609
     
     return kilometers
 
-def calcMeters(miles):
+def calc_meters(miles):
     meters = miles * 1609.344
     
     return meters
 
-def calcYards(miles):
+def calc_yards(miles):
     yards = miles * 1760
     
     return yards
 
-def displayCentimeters(centimeters):
+def display_centimeters(centimeters):
     print("The miles in centimeters are " + str(centimeters) + " centimeters")
 
-def displayFeet(feet):
+def display_feet(feet):
     print("The miles into feet are " + str(feet) + " feet.")
 
-def displayInches(inches):
+def display_inches(inches):
     print("The miles into inches are " + str(inches) + " inches.")
 
-def displayKilometers(kilometers):
+def display_kilometers(kilometers):
     print("The miles into kilometers are " + str(kilometers) + " kilometers.")
 
-def displayMeters(meters):
+def display_meters(meters):
     print("The miles into meters are " + str(meters) + " meters.")
 
-def displayYards(yards):
+def display_yards(yards):
     print("The miles into yards are " + str(yards) + " yards.")
 
-def getMiles():
+def get_miles():
     print("Enter miles")
     miles = int(input())
     
     return miles
 
-def getChoice():
+def get_choice():
     print("Do you want US measurements or metric measurements?")
     choice = input()
     
     return choice
 
-# Main
-# This program ask the users if they would like to cheange the miles int US measurements or metric measurements
-miles = getMiles()
-choice = getChoice()
-yards = calcYards(miles)
-feet = calcFeet(miles)
-inches = calcInches(miles)
-kilometers = calcKilometers(miles)
-meters = calcMeters(miles)
-centimeters = calcCentimeters(miles)
-if choice == "us":
-    displayYards(yards)
-    displayFeet(feet)
-    displayInches(inches)
-else:
-    if choice == "metric":
-        displayKilometers(kilometers)
-        displayMeters(meters)
-        displayCentimeters(centimeters)
+def main():
+    
+    miles = get_miles()
+    choice = get_choice()
+    yards = calc_yards(miles)
+    feet = calc_feet(miles)
+    inches = calc_inches(miles)
+    kilometers = calc_kilometers(miles)
+    meters = calc_meters(miles)
+    centimeters = calc_centimeters(miles)
+    
+    if choice == "us":
+        display_yards(yards)
+        display_feet(feet)
+        display_inches(inches)
     else:
-        print("Please selec us or metric measurements")
+        
+        if choice == "metric":
+            display_kilometers(kilometers)
+            display_meters(meters)
+            display_centimeters(centimeters)
+        else:
+            print("Please selec us or metric measurements")
+
+main()
