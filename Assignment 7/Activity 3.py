@@ -87,7 +87,7 @@ def main():
     meters = calc_meters(miles)
     centimeters = calc_centimeters(miles)
     
-    if choice == "us":
+    if choice == "US":
         display_yards(yards)
         display_feet(feet)
         display_inches(inches)
