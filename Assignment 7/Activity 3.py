@@ -1,5 +1,5 @@
-    # This program ask the users if they would like to cheange 
-    # the miles int US measurements or metric measurements
+# This program ask the users if they would like to cheange 
+# the miles int US measurements or metric measurements
 
 
 def calc_centimeters(miles):
@@ -99,5 +99,4 @@ def main():
             display_centimeters(centimeters)
         else:
             
-
-    main()
+            main()
