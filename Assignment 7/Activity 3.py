@@ -7,30 +7,36 @@ def calc_centimeters(miles):
     
     return centimeters
 
+
 def calc_feet(miles):
     feet = miles * 5280
-    
+
     return feet
+
 
 def calc_inches(miles):
     inches = miles * 63360
     
     return inches
 
+
 def calc_kilometers(miles):
     kilometers = miles * 1.609
     
     return kilometers
+
 
 def calc_meters(miles):
     meters = miles * 1609.344
     
     return meters
 
+
 def calc_yards(miles):
     yards = miles * 1760
     
     return yards
+
 
 def display_centimeters(centimeters):
     print("The miles in centimeters are " + str(centimeters) + " centimeters")
