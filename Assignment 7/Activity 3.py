@@ -98,7 +98,7 @@ def main():
             display_meters(meters)
             display_centimeters(centimeters)
         else:
-            print("Please enter if you want to convert to US measurements or metric measurements")
+            print("Enter if you want to convert to US or metric measurements")
     
     
 main()
