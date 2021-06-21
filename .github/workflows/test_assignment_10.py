@@ -6,7 +6,7 @@ import test
 def test_assignment_10_folder_structure():
     test.check_assignment_folder_structure(
         "Assignment 10",
-        r"activity[ _]?#?\d\.(class|fprg|cs|java|js|lua|py)|"
+        r"(nested )?activity[ _]?#?\d\.(class|fprg|cs|java|js|lua|py)|"
         "package-lock.json|test.csproj")
 
 
