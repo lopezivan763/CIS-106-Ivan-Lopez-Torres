@@ -787,7 +787,7 @@ def check_python_formatting(assignment, activity):
 
     pattern = r"^ +main\(\)$"
     match = re.search(pattern, text, re.MULTILINE)
-    if match:
+    if match and "__main__" not in text:
         output = "Call to main() must not be indented.\n" + output
 
     assert not output, \
